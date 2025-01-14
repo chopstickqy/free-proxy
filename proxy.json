@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1569,
+    "ip": "63.32.1.88",
+    "port": 3128,
+    "country": "Ireland",
+    "city": "Dublin",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 0.16181793699972333
+  },
+  {
+    "id": 1699,
+    "ip": "44.227.181.1",
+    "port": 3128,
+    "country": "United States",
+    "city": "Boardman",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 1.6773791680000723
+  },
+  {
+    "id": 1715,
+    "ip": "44.226.29.99",
+    "port": 1080,
+    "country": "United States",
+    "city": "Boardman",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 4.3366484519997615
+  },
+  {
+    "id": 1731,
+    "ip": "164.163.42.18",
+    "port": 10000,
+    "country": "Argentina",
+    "city": "Villa Ángela",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 5.353264394999481
+  },
+  {
+    "id": 1733,
+    "ip": "98.8.195.160",
+    "port": 443,
+    "country": "United States",
+    "city": null,
+    "type": "https",
+    "uptime": 100,
+    "response_time": 3.6238554579997437
+  },
+  {
+    "id": 1779,
+    "ip": "164.163.42.13",
+    "port": 10000,
+    "country": "Argentina",
+    "city": "Villa Ángela",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 10.044620246999896
+  },
+  {
+    "id": 1828,
+    "ip": "13.213.114.238",
+    "port": 3128,
+    "country": "Singapore",
+    "city": "Singapore",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 1.4190481319995596
+  },
+  {
+    "id": 1829,
+    "ip": "139.219.239.14",
+    "port": 8080,
+    "country": "China",
+    "city": "Shanghai",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 2.3700657949997113
+  },
+  {
+    "id": 1951,
+    "ip": "164.163.42.2",
+    "port": 10000,
+    "country": "Argentina",
+    "city": "Villa Ángela",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 6.316175819999538
+  },
+  {
+    "id": 2045,
+    "ip": "51.16.179.113",
+    "port": 1080,
+    "country": "Israel",
+    "city": "Tel Aviv",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 0.35027298999996853
+  },
+  {
+    "id": 14,
+    "ip": "54.179.39.14",
+    "port": 3128,
+    "country": "Singapore",
+    "city": "Singapore",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 1.3788344509999733
+  },
+  {
+    "id": 18,
+    "ip": "35.154.71.72",
+    "port": 3128,
+    "country": "India",
+    "city": "Mumbai",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 2.8401961779999545
+  },
+  {
+    "id": 28,
+    "ip": "52.13.248.29",
+    "port": 3128,
+    "country": "United States",
+    "city": "Boardman",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 3.3042230260000798
+  },
+  {
+    "id": 64,
+    "ip": "65.1.244.232",
+    "port": 80,
+    "country": "India",
+    "city": "Mumbai",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 0.6051560159999645
+  },
+  {
+    "id": 93,
+    "ip": "204.236.176.61",
+    "port": 3128,
+    "country": "United States",
+    "city": "San Jose",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 0.6723934289999306
+  },
+  {
+    "id": 95,
+    "ip": "52.73.224.54",
+    "port": 3128,
+    "country": "United States",
+    "city": "Ashburn",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 0.6767809109999798
+  },
+  {
+    "id": 106,
+    "ip": "18.135.211.182",
+    "port": 3128,
+    "country": "United Kingdom",
+    "city": "London",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 1.0385808289998677
+  },
+  {
+    "id": 130,
+    "ip": "51.17.58.162",
+    "port": 3128,
+    "country": "Israel",
+    "city": "Tel Aviv",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 0.3365104559999891
+  },
+  {
+    "id": 141,
+    "ip": "13.56.192.187",
+    "port": 3128,
+    "country": "United States",
+    "city": "San Jose",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 0.7622444069997873
+  },
+  {
+    "id": 144,
+    "ip": "3.212.148.199",
+    "port": 3128,
+    "country": "United States",
+    "city": "Ashburn",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 0.4869444450000301
+  },
+  {
+    "id": 151,
+    "ip": "15.207.35.241",
+    "port": 3128,
+    "country": "India",
+    "city": "Mumbai",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 5.942289569000015
+  },
+  {
+    "id": 155,
+    "ip": "52.16.232.164",
+    "port": 3128,
+    "country": "Ireland",
+    "city": "Dublin",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 0.17366053700004705
+  },
+  {
+    "id": 162,
+    "ip": "51.20.50.149",
+    "port": 3128,
+    "country": "Sweden",
+    "city": "Stockholm",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 0.1567597709998954
+  },
+  {
+    "id": 173,
+    "ip": "3.90.100.12",
+    "port": 3128,
+    "country": "United States",
+    "city": "Ashburn",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 0.4873681630000938
+  },
+  {
+    "id": 184,
+    "ip": "3.139.242.184",
+    "port": 80,
+    "country": "United States",
+    "city": "Columbus",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 0.4962215449998621
+  },
+  {
+    "id": 196,
+    "ip": "18.228.149.161",
+    "port": 80,
+    "country": "Brazil",
+    "city": "São Paulo",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 1.030614881000016
+  },
+  {
+    "id": 205,
+    "ip": "35.79.120.242",
+    "port": 3128,
+    "country": "Japan",
+    "city": "Tokyo",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 1.3286995300000999
+  },
+  {
+    "id": 217,
+    "ip": "15.156.24.206",
+    "port": 3128,
+    "country": "Canada",
+    "city": "Montreal",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 0.48619642799999563
+  },
+  {
+    "id": 225,
+    "ip": "13.59.156.167",
+    "port": 3128,
+    "country": "United States",
+    "city": "Columbus",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 0.4829966530001257
+  },
+  {
+    "id": 226,
+    "ip": "3.37.125.76",
+    "port": 3128,
+    "country": "South Korea",
+    "city": "Incheon",
+    "type": "https",
+    "uptime": 100,
+    "response_time": 1.1387722720000892
+  }
+]
