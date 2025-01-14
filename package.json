@@ -1,0 +1,29 @@
+{
+  "name": "free-proxy",
+  "version": "1.0.0",
+  "description": "free-proxy",
+  "main": "main.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --loader ts-node/esm main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chopstickqy/free-proxy.git"
+  },
+  "author": "chopstick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chopstickqy/free-proxy/issues"
+  },
+  "homepage": "https://github.com/chopstickqy/free-proxy#readme",
+  "dependencies": {
+    "axios": "1.7.9",
+    "simple-git": "3.27.0"
+  },
+  "devDependencies": {
+    "ts-node": "10.9.2",
+    "typescript": "5.7.3"
+  }
+}
