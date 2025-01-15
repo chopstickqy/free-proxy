@@ -85,6 +85,9 @@ async function pushToGitHub() {
         await git.checkout(branchName); // 切换到已存在的分支
     }
 
+    // 拉取远程分支的最新更改
+    await git.pull('origin', branchName)
+
     // 提交更改
     await git.commit('Update proxy.json with available proxies');
 
