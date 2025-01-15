@@ -30,3 +30,6 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}  # 使用 GitHub Secrets
         run: node --loader ts-node/esm main.ts  # 使用 ts-node 运行 TypeScript 文件
+
+permissions:
+  contents: write  # 允许写入内容
