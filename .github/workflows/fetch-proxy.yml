@@ -21,15 +21,38 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Run main.ts
+        run: |
+          node --loader ts-node/esm main.ts  # 使用 ts-node 运行 TypeScript 文件
+          mv proxy.json new_proxy.json
+
       - name: Configure Git
         run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Run main.ts
+      - name: Ensure target branch exists
+        run: |
+          git fetch origin proxy || true
+          git checkout -b proxy origin/proxy || git checkout proxy
+          git pull origin proxy --rebase
+
+      - name: Commit and push changes
+        run: |
+          rm proxy.json
+          mv new_proxy.json proxy.json
+          git add proxy.json
+          if git diff --quiet proxy.json; then
+            echo "No changes in proxy.json. Skipping commit and push."
+          else
+            # 设置提交信息
+            commit_message="proxy update $(date '+%Y-%m-%d')"
+            git add proxy.json
+            git commit -m "$commit_message"
+            git push origin proxy
+          fi
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}  # 使用 GitHub Secrets
-        run: node --loader ts-node/esm main.ts  # 使用 ts-node 运行 TypeScript 文件
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}  # 使用 GitHub Secrets
 
 permissions:
   contents: write  # 允许写入内容
