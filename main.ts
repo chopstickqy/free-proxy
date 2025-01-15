@@ -76,7 +76,6 @@ async function pushToGitHub() {
     // 初始化 Git
     await git.init();
     await git.add('./proxy.json');
-    console.log('git add json file');
 
     // 检查分支是否存在
     const branches = await git.branch();
